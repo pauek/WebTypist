@@ -1,0 +1,56 @@
+body {
+  font-family: "Iosevka", sans-serif;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+#word {
+  color: #bbb;
+  position: absolute;
+  top: 50%;
+  margin-top: -18px;
+  height: 36px;
+  font-size: 36px;
+  width: 100%;
+  padding: 0px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  word-wrap: break-word;
+}
+
+#stats {
+  font-size: 16px;
+  position: absolute;
+  left: 16px;
+  bottom: 16px;
+  color: #aaa;
+}
+
+#position {
+  font-size: 16px;
+  position: absolute;
+  left: 16px;
+  top: 16px;
+  color: #aaa;
+}
+
+.current {
+  border-bottom: 4px solid #f78d1d;
+}
+.error {
+  color: white;
+  background-color: red;
+}
+.good {
+  color: #000;
+}
